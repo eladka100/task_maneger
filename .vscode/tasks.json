@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "label": "run-backend",
+        "command": "dotnet",
+        "args": [
+            "run"
+        ],
+        "options": {
+            "cwd": "${workspaceFolder}/Backend"
+        },
+        "isBackground": true,
+        "problemMatcher": "$msCompile"
+    },
+    {
+        "label": "run-frontend",
+        "command": "npm",
+        "args": [
+            "start"
+        ],
+        "options": {
+            "cwd": "${workspaceFolder}/frontend"
+        },
+        "isBackground": true
+    },
+    {
+        "label": "run-all",
+        "dependsOn": [
+            "run-backend",
+            "run-frontend"
+        ],
+        "dependsOrder": "parallel",
+        "problemMatcher": [
+            "$eslint-compact"
+        ]
+    }
+]
+}

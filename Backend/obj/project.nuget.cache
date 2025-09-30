@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lu01uFizVjw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eladk\\programing\\task_maneger\\Backend\\Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eladk\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\eladk\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
